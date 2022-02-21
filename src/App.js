@@ -5,7 +5,8 @@ import theme from "./components/theme";
 // import HeaderBuilder from "./components/HeaderBuilder";
 import ModeChanger from "./components/ModeChanger";
 import Accordian from "./components/Accordian";
-// import NormalFormValidation from "./components/NormalFormValidation";
+
+import NormalFormValidation from "./components/NormalFormValidation";
 // import FormicValidation from "./components/FormicValidation";
 
 function App() {
@@ -16,9 +17,10 @@ function App() {
         {/* <HeaderBuilder/> */}
       </ThemeProvider>
       <ModeChanger/>
-      {/* <FormicValidation/>
-      <NormalFormValidation/> */}
+      {/* <FormicValidation/> */}
+      <NormalFormValidation/>
       <Accordian/>
+      
     </div>
   );
 }
