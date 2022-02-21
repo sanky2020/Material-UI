@@ -1,6 +1,7 @@
 import { Button, TextField, Typography } from "@mui/material";
 import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core";
+import RadioButtons from "./RadioButtons";
 
 const useStyles = makeStyles({
   textfield: {
@@ -77,6 +78,7 @@ function NormalFormValidation() {
           multiline
           rows={5}
         />
+        <RadioButtons/><br/>
         <Button variant="contained" type="submit">
           Submit
         </Button>
