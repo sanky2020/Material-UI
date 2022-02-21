@@ -7,7 +7,7 @@ import ModeChanger from "./components/ModeChanger";
 import Accordian from "./components/Accordian";
 
 import NormalFormValidation from "./components/NormalFormValidation";
-// import FormicValidation from "./components/FormicValidation";
+import FormicValidation from "./components/FormicValidation";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         {/* <HeaderBuilder/> */}
       </ThemeProvider>
       <ModeChanger/>
-      {/* <FormicValidation/> */}
+      <FormicValidation/>
       <NormalFormValidation/>
       <Accordian/>
       
