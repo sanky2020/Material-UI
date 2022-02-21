@@ -10,7 +10,7 @@ function Buttonbuilder() {
     <>
     <Button variant='text' fullWidth>Click here</Button>
     <Button variant='contained' color='secondary' startIcon={<SaveIcon/>} endIcon={<SaveAltIcon/>} style={{fontSize:24}}>Click here</Button>
-    <Button variant='contained' disabled >Click here</Button>0
+    <Button variant='contained' disabled >Click here</Button>
     <Button variant='outlined' >Click here</Button>
     </>
   )

@@ -10,13 +10,13 @@ function RadioButtons() {
 
   return (
       <FormControl>
-      <FormLabel>Select Languages:</FormLabel>
+      <FormLabel>Select Languages:</FormLabel><br/>
       <RadioGroup row onChange={handleChange} value={dynamicValue}>
         <FormControlLabel label={"HTML"} value={"html"} control={<Radio/>}/>
         <FormControlLabel label={"CSS"} value={"css"} control={<Radio/>}/>
         <FormControlLabel label={"JAVASCRIPT"} value={"javascript"} control={<Radio/>}/>
         <FormControlLabel disabled label={"PYTHON"} value={"python"} control={<Radio/>}/>
-    </RadioGroup>
+    </RadioGroup><br/>
     </FormControl>
   )
 }
